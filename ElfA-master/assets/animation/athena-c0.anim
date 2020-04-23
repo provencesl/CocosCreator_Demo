@@ -1,0 +1,78 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "athena-c0",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.5,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "6e63390c-22d7-412e-b856-7f698b20450a"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "d662aba2-bf03-4a83-84be-40e2d8927431"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "02d2845e-de67-4784-9fd1-cc7a1764e02d"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "c36dec69-7df9-494a-9afb-8ffae0c17960"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "300dd1a0-c2d2-419a-b1f9-0dbedb89572e"
+            }
+          }
+        ]
+      },
+      "athena": {},
+      "cc.BoxCollider": {}
+    },
+    "props": {}
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "skillStart",
+      "params": []
+    },
+    {
+      "frame": 0.3,
+      "func": "hitPrefabShow",
+      "params": [
+        39,
+        20,
+        40,
+        20
+      ]
+    },
+    {
+      "frame": 0.4,
+      "func": "skillEnd",
+      "params": []
+    },
+    {
+      "frame": 0.4,
+      "func": "hitPrefabHide",
+      "params": []
+    }
+  ]
+}

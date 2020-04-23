@@ -1,0 +1,76 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "athena-c3",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.7,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "221c8821-4614-43fc-9701-5dd90cb9c6cc"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "726fe138-762f-4067-bde5-b900c80f330c"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "ca14b166-d714-4c1b-b397-e9a109a6360b"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "c0808454-7a6f-486c-9cf0-53a0479b32b6"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "7db2d53b-66ea-4bf5-a466-f23d08d4bea5"
+            }
+          }
+        ]
+      }
+    },
+    "props": {}
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "skillStart",
+      "params": []
+    },
+    {
+      "frame": 0.2,
+      "func": "hitPrefabShow",
+      "params": [
+        67,
+        8,
+        64,
+        35
+      ]
+    },
+    {
+      "frame": 0.6,
+      "func": "skillEnd",
+      "params": []
+    },
+    {
+      "frame": 0.6,
+      "func": "hitPrefabHide",
+      "params": []
+    }
+  ]
+}

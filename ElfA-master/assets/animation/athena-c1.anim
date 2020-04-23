@@ -1,0 +1,84 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "athena-c1",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.4666666666666667,
+  "sample": 15,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "45df5222-514c-4e49-948c-20422d5bfb8d"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "4d613ede-b75e-40ad-a2c8-dda89f750943"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "21161897-8d40-47cd-b339-436fa4698a3f"
+            }
+          },
+          {
+            "frame": 0.26666666666666666,
+            "value": {
+              "__uuid__": "194b88c1-7a4b-4488-b18e-ec7daaa9f34c"
+            }
+          },
+          {
+            "frame": 0.3333333333333333,
+            "value": {
+              "__uuid__": "2f3dcf30-9223-4117-a37d-0ba20d42dcae"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "539ba736-f9fa-4643-a63d-8cc8217a3156"
+            }
+          }
+        ]
+      },
+      "athena": {},
+      "cc.MissingScript": {}
+    },
+    "props": {}
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "skillStart",
+      "params": []
+    },
+    {
+      "frame": 0.13333333333333333,
+      "func": "hitPrefabShow",
+      "params": [
+        60,
+        23,
+        49,
+        31
+      ]
+    },
+    {
+      "frame": 0.4,
+      "func": "skillEnd",
+      "params": []
+    },
+    {
+      "frame": 0.4,
+      "func": "hitPrefabHide",
+      "params": []
+    }
+  ]
+}

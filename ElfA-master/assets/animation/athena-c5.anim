@@ -1,0 +1,99 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "athena-c5",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.6666666666666666,
+  "sample": 15,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "022c7c5f-0066-4d14-904c-51f61e4f26cb"
+            }
+          },
+          {
+            "frame": 0.06666666666666667,
+            "value": {
+              "__uuid__": "a555628a-c438-42a4-82e0-668c86830266"
+            }
+          },
+          {
+            "frame": 0.13333333333333333,
+            "value": {
+              "__uuid__": "5b932e58-7793-44f8-b095-3c8e0ed50964"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "496c7aaa-fceb-4a20-8382-7deb59eb0192"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "0bef8242-a8e4-41bb-89bb-9312005e7f2d"
+            }
+          },
+          {
+            "frame": 0.4666666666666667,
+            "value": {
+              "__uuid__": "d230d831-3caa-42b8-bbd5-696a07499e78"
+            }
+          },
+          {
+            "frame": 0.5333333333333333,
+            "value": {
+              "__uuid__": "9424145a-bf6e-4998-bba2-e84a1129a8c3"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "4637f489-a3c6-4871-9e65-28666b8ffeb8"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "skillStart",
+      "params": []
+    },
+    {
+      "frame": 0.2,
+      "func": "hitPrefabShow",
+      "params": [
+        66,
+        13,
+        66,
+        45,
+        true
+      ]
+    },
+    {
+      "frame": 0.4666666666666667,
+      "func": "hitPrefabHide",
+      "params": []
+    },
+    {
+      "frame": 0.6,
+      "func": "skillEnd",
+      "params": []
+    },
+    {
+      "frame": 0.6,
+      "func": "comboEnd",
+      "params": []
+    }
+  ]
+}

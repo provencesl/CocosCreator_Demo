@@ -1,0 +1,67 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "athena-stand",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.8,
+  "sample": 10,
+  "speed": 1,
+  "wrapMode": 2,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "22d77a83-142c-4382-bd14-01cbd9eacd50"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "9662258c-10d8-44ac-823c-38dd77bf04db"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "bc9c51f5-917a-41c1-bc18-1d12e688f3a3"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "7f706dbf-bcf4-4d3b-9811-acd1069cfb2f"
+            }
+          },
+          {
+            "frame": 0.4,
+            "value": {
+              "__uuid__": "3a76cf87-8e80-437c-8917-414428884f1b"
+            }
+          },
+          {
+            "frame": 0.5,
+            "value": {
+              "__uuid__": "3bd61095-97e7-4c9b-87e5-9ac503967be5"
+            }
+          },
+          {
+            "frame": 0.6,
+            "value": {
+              "__uuid__": "770f7f79-6bff-4302-a70f-4fb33f44fedb"
+            }
+          },
+          {
+            "frame": 0.7,
+            "value": {
+              "__uuid__": "1fd830b6-4435-440d-979c-2f136bf92be0"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": []
+}

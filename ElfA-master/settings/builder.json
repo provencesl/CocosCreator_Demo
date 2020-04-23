@@ -1,0 +1,13 @@
+{
+  "excludeScenes": [],
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.ElfA",
+  "startScene": "6b15bbc3-b8b7-482f-8b87-ccf529f002d5",
+  "title": "ElfA",
+  "webOrientation": "landscape"
+}

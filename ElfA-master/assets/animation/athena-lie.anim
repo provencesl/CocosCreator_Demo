@@ -1,0 +1,71 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "athena-lie",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.35,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b9fe7933-eaaf-47dd-8faa-34c32cad3013"
+            }
+          },
+          {
+            "frame": 0.1,
+            "value": {
+              "__uuid__": "4b032180-0189-4687-b6eb-fba14cbbbd39"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "269cab01-d510-4e07-b994-eddfabdbca5c"
+            }
+          },
+          {
+            "frame": 0.2,
+            "value": {
+              "__uuid__": "8f44de9b-2d0f-4c64-be49-d0c5ebbe3701"
+            }
+          },
+          {
+            "frame": 0.25,
+            "value": {
+              "__uuid__": "431bb2c4-b794-42a7-b8e7-91353e29a59f"
+            }
+          },
+          {
+            "frame": 0.3,
+            "value": {
+              "__uuid__": "5e4bb040-65b2-476f-ae5a-be7dc67646cf"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "skillStart",
+      "params": []
+    },
+    {
+      "frame": 0.3,
+      "func": "skillEnd",
+      "params": []
+    },
+    {
+      "frame": 0.3,
+      "func": "onGround",
+      "params": []
+    }
+  ]
+}

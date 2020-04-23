@@ -1,0 +1,42 @@
+{
+  "__type__": "cc.AnimationClip",
+  "_name": "athena-hurt",
+  "_objFlags": 0,
+  "_rawFiles": null,
+  "_duration": 0.2,
+  "sample": 20,
+  "speed": 1,
+  "wrapMode": 1,
+  "curveData": {
+    "comps": {
+      "cc.Sprite": {
+        "spriteFrame": [
+          {
+            "frame": 0,
+            "value": {
+              "__uuid__": "b9fe7933-eaaf-47dd-8faa-34c32cad3013"
+            }
+          },
+          {
+            "frame": 0.15,
+            "value": {
+              "__uuid__": "b9fe7933-eaaf-47dd-8faa-34c32cad3013"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "events": [
+    {
+      "frame": 0,
+      "func": "skillStart",
+      "params": []
+    },
+    {
+      "frame": 0.15,
+      "func": "",
+      "params": []
+    }
+  ]
+}
